@@ -1,0 +1,89 @@
+.横並びA {
+	display: flex;
+	/* 横並び */
+	gap: 20px;
+
+	/* 列をまとめて中央に寄せる */
+	justify-content: center;
+
+	& .列 {
+		background-color: orange;
+		width: 80px;
+
+	}
+
+}
+
+
+.横並びB {
+	display: flex;
+
+	/* 列を左右端にわける */
+	justify-content: space-between;
+
+	& .広い列 {
+		background-color: lightblue;
+		width: 200px;
+	}
+
+	& .狭い列 {
+		background-color: lightgreen;
+		width: 120px
+	}
+}
+
+
+.あ {
+	display: flex;
+	gap: 5px;
+
+
+	& .いぬ全体 {
+		border: 1px solid black;
+		padding: 10px;
+	}
+
+
+	& .いぬ {
+		width: 100px;
+		height: 100px;
+	}
+
+	& .いぬタイトル {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+
+	& .やく全体 {
+		border: 1px solid black;
+		padding: 10px;
+	}
+
+	& .やく {
+		width: 100px;
+		height: 100px;
+	}
+
+	& .やくタイトル {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	
+	& .きつね全体 {
+		border: 1px solid black;
+		padding: 10px;
+	}
+
+	& .きつね {
+		width: 100px;
+		height: 100px;
+	}
+
+	& .きつねタイトル {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+}
